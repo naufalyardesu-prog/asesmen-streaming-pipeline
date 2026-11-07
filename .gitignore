@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+checkpoints/
+spark-warehouse/
+metastore_db/
+derby.log
