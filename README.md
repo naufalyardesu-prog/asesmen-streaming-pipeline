@@ -57,6 +57,12 @@ python producer/producer.py
 
 Buat liat isi topic bisa buka kafka-ui di http://localhost:8080
 
+## Hasil
+
+Dari 60 event yang dikirim:
+- 49 event valid masuk `transactions_valid`
+- 11 event invalid / late masuk `transactions_dlq`
+
 ## Screenshot
 
 Producer
@@ -65,8 +71,5 @@ Producer
 Output streaming
 ![](screenshots/02_streaming_console.png)
 
-Topic valid
-![](screenshots/03_topic_valid.png)
-
-Topic DLQ
-![](screenshots/04_topic_dlq.png)
+Topic valid & DLQ
+![](screenshots/03_topics.png)
